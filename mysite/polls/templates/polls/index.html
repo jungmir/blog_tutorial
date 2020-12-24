@@ -1,0 +1,15 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>title</h1>
+        {% if user %}
+        <ul>
+            <script> console.log("{{data}}"); </script>
+            {% for k in user %}
+                <li>{{k.id}} : {{k.name}}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </body>    
+</html>
