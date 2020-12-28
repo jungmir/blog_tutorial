@@ -66,3 +66,5 @@ exitBtn.addEventListener('click', () => {
     loginBody.style.opacity = '1';
     body.style.overflow = 'visible';
 })
+
+/* 12/28 */
