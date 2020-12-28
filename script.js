@@ -67,4 +67,4 @@ exitBtn.addEventListener('click', () => {
     body.style.overflow = 'visible';
 })
 
-/* 12/28 */
+// /* 12/28 */
