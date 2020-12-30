@@ -6,3 +6,6 @@ __pycache__
 
 #scret key file
 key.py
+
+#log directory
+log/*
