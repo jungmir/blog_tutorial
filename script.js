@@ -68,3 +68,31 @@ exitBtn.addEventListener('click', () => {
 })
 
 // /* 12/28 */
+
+let heart = document.querySelector('.fa-heart');
+let share = document.querySelector('.fa-share-alt');
+
+heart.addEventListener("click", (function() {
+    if (this.state) {
+      heart.style.color = "red";
+    } else {
+      heart.style.color = "rgb(134, 142, 150)";
+    }
+    this.state = !this.state;
+  }).bind({ state: false }));
+
+//   12 / 30
+
+let hideIcon = document.querySelector('.hide-icons')
+let twitter = document.querySelector('.fa-twitter')
+let facebook = document.querySelector('.fa-facebook')
+let clip = document.querySelector('.fa-paperclip')
+
+share.addEventListener("click", (function() {
+    if (this.state) {
+        hideIcon.style.display = "block";
+    } else {
+        hideIcon.style.display = "none";
+    }
+    this.state = !this.state;
+  }).bind({ state: false }));

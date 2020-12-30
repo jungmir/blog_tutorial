@@ -928,6 +928,10 @@ p {
   background-color: rgb(59, 89, 152);
 }
 
+.fa-facebook-f {
+  width: 47px;
+}
+
 .login-popup > .white-block > .block-content > .foot {
   text-align: right;
   margin-top: 95px;
@@ -950,3 +954,72 @@ p {
 }
 
 /* 12/28  */
+
+.hide-icons {
+  display: none;
+}
+
+.hide-icons > i {
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background: white;
+  border: 1px solid rgb(173, 181, 189);
+  border-radius: 1.5rem;
+  color: rgb(134, 142, 150);
+  cursor: pointer;
+  z-index: 5;
+  font-size: 23px;
+  position: absolute;
+  top: 207px;
+  left: 459px;
+}
+
+.hide-icons .fa-facebook {
+  animation: facebook 0.3s ease forwards;
+}
+
+.hide-icons .fa-twitter {
+  animation: twitter 0.3s ease forwards;
+}
+
+.hide-icons .fa-paperclip {
+  animation: clip 0.3s ease forwards;
+}
+
+@keyframes facebook {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(48px, -52px);
+  }
+}
+
+@keyframes twitter {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(72px);
+  }
+}
+
+@keyframes clip {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(48px, 52px);
+  }
+}
