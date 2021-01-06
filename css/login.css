@@ -1,0 +1,99 @@
+.login-main {
+  width: 1000px;
+  height: 500px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.login-main .sentence h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.login-main .sentence p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.login-popup form fieldset {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(136, 136, 136, 0.041);
+  border-radius: 10px;
+}
+
+fieldset .box-login .inp-text input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.5rem;
+  border: 1px solid rgba(51, 51, 51, 0.473);
+  margin-top: 5px;
+}
+
+fieldset .login {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid rgba(51, 51, 51, 0.267);
+  margin-bottom: 40px;
+  cursor: pointer;
+  color: rgb(107, 107, 107);
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+fieldset .new-login {
+  width: 120px;
+  height: 40px;
+  background-color: rgba(145, 116, 116, 0.425);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #000;
+  text-decoration: none;
+}
+
+fieldset .hr {
+  width: 100%;
+  border-top: 0.1px solid rgba(51, 51, 51, 0.247);
+  margin-bottom: 15px;
+}
+
+fieldset .forget-password {
+  font-size: 15px;
+  color: rgba(80, 80, 194, 0.849);
+  display: inline;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.fa-home {
+  font-size: 25px;
+  position: absolute;
+  top: 40px;
+  left: 110px;
+  transition: 0.1s ease-in;
+  cursor: pointer;
+}
+
+.fa-home:hover {
+  transform: scale(1.1);
+}
+
+.remember {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/771b4faa81.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/css/login.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="login-main">
+            <div class="sentence">
+                <h1>무료 회원가입!</h1>
+                <p>마음껏 글을 쓰고 마음껏 업로드!<br/>
+                    무료로 회원가입하고 글을 써보세요.
+                </p>
+            </div>
+            <!-- left -->
+            <div class="login-popup">
+                <form method="POST" id="authForm" action="">
+                    <fieldset>
+                        <div class="box-login">
+                            <div class="inp-text">
+                                <label for="loginId"></label>
+                                <input type="email" placeholder="ID">
+                            </div>
+                            <div class="inp-text">
+                                <label for="loginPw"></label>
+                                <input type="password" placeholder="Password">
+                            </div>
+                            <div class="remember">
+                                <input type="checkbox">
+                                기억하기
+                            </div>
+                        </div>
+                        <input class="login" type="submit" value="로그인">
+                        <div class="forget-password">
+                            비밀번호를 잊으셨나요?
+                        </div>
+                        <div class="hr"></div>
+                        <a href="/html/newlogin.html" class="new-login">
+                            새 계정 만들기
+                        </a>
+                    </fieldset>
+                </form>
+            </div>
+            <!-- right -->
+        </div>
+        <a href="/html/index.html" style="color: #000;">
+            <i class="fas fa-home">
+                홈으로</i>
+        </a>
+    </body>
+</html>

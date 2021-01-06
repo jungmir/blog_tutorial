@@ -1,0 +1,107 @@
+.create-account-main {
+    width: 600px;
+    margin: 100px auto;
+    
+}
+
+.create-account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.create-account form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form .form-group {
+    display: flex;
+    margin: 10px 20px 10px 20px;
+}
+
+form .form-group .form-label {
+    width: 100%;
+}
+
+form .form-group input {
+    display: block;
+    width: 16rem;
+    height: 2rem;
+    margin-top: 4px;
+    font-size: 1rem;
+    padding-left: 7px;
+    color: rgba(0, 0, 0, 0.404);
+    border: 1px solid grey;
+}
+
+form .form-group .email-input {
+    width: 33.5rem;
+}
+
+form .form-group .password-input {
+    width: 33.5rem;
+}
+
+form .form-group input:hover {
+    color: black;
+    border: 1px solid black;
+}
+
+form .form-button-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+}
+
+form .form-button-group input {
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 19px;
+    margin-top: 19px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.151);
+}
+
+form .form-button-group input:hover {
+    opacity: .8;
+}
+
+
+form .form-button-group i {
+    font-size: 30px;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+form .form-button-group i:hover {
+    opacity: .8;
+}
+
+form .form-button-group .hr {
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+    margin-top: 19px;
+    
+}
+
+.fa-home{
+    font-size: 25px;
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+.fa-home:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(248, 249, 250) none repeat scroll 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header .navbar {
+  display: flex;
+  width: 90%;
+  height: 100px;
+  margin: auto;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar .search-login {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  height: 100x;
+  align-items: center;
+}
+
+.search-login .login {
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+
+.search-login .login:hover {
+  transform: scale(1.1);
+}
+
+header .search-main {
+  margin-top: 3.5rem;
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-main .input-main {
+  margin-bottom: 1.5rem;
+  display: flex;
+  border: 1px solid rgb(173, 181, 189);
+  -moz-box-align: center;
+  align-items: center;
+  transition: all 0.125s ease-in 0s;
+  cursor: text;
+  height: 4rem;
+  padding: 0 1.5rem;
+}
+
+.input-main i {
+  transition: all 0.125s ease-in 0s;
+  margin-right: 1.5rem;
+  color: rgb(173, 181, 189);
+  font-size: 1.5rem;
+}
+
+.input-main input {
+  font-size: 1.5rem;
+  height: 2rem;
+  flex: 1 1 0;
+  border: none;
+  color: rgb(73, 80, 87);
+  transition: all 0.125s ease-in 0s;
+  background-color: inherit;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+}
+
+.navbar .fa-arrow-circle-left {
+  font-size: 25px;
+  position: absolute;
+  top: 40px;
+  left: 110px;
+  transition: 0.1s ease-in;
+  cursor: pointer;
+}
+
+.navbar .fa-arrow-circle-left:hover {
+  transform: scale(1.1);
+}
