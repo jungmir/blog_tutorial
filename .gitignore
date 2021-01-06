@@ -4,8 +4,8 @@
 #python cache
 __pycache__
 
-#scret key file
-key.py
-
 #log directory
 log/*
+
+#.env file
+.env
